@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #02211a;
+    color: #ffffff;
+    font-family: "Courier New", Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+pre {
+    font-size: clamp(8px, 2.5vw, 16px);
+    line-height: 1.2;
+}
+
+.tagline {
+    font-size: clamp(8px, 2.5vw, 16px);
+    text-align: center;
+}
