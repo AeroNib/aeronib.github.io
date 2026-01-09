@@ -20,21 +20,32 @@
             min-height: 100svh;
             padding: 20px;
         }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1em;
+        }
         pre {
             font-size: clamp(8px, 2.5vw, 16px);
             line-height: 1.2;
         }
+        .tagline {
+            font-size: clamp(8px, 2.5vw, 16px);
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <pre>
+    <div class="container">
+        <pre>
     _    _____ ____   ___  _   _ ___ ____  
    / \  | ____|  _ \ / _ \| \ | |_ _| __ ) 
   / _ \ |  _| | |_) | | | |  \| || ||  _ \ 
  / ___ \| |___|  _ <| |_| | |\  || || |_) |
 /_/   \_\_____|_| \_\\___/|_| \_|___|____/ 
-
-           COMING SOON!  :3
-    </pre>
+        </pre>
+        <div class="tagline">COMING SOON!  :3</div>
+    </div>
 </body>
 </html>
