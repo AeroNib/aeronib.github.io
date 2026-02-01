@@ -37,6 +37,13 @@ a:hover {
     gap: 1em;
 }
 
+pre {
+    font-variant-ligatures: none;
+    font-feature-settings: normal;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
 .tagline {
     text-align: center;
 }
