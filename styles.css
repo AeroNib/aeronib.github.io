@@ -8,7 +8,7 @@ body {
     background-color: #02211a;
     color: #ffffff;
     font-family: "Courier New", Courier, monospace;
-    font-size: clamp(8px, 2.5vw, 16px);
+    font-size: clamp(8px, 2.5vw, 24px);
     line-height: 1.2;
     display: flex;
     justify-content: center;
